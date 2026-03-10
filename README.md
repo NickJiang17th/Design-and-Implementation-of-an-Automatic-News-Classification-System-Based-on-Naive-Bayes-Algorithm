@@ -1,5 +1,5 @@
-# Sina-news-title-classification-based-on-Bayesian-Naive-Bayes-classification-python-code-
-以贝叶斯朴素分类为基础的新浪新闻标题分类
+# Design-and-Implementation-of-an-Automatic-News-Classification-System-Based-on-Naive-Bayes-Algorithmn-python-code-
+基于朴素贝叶斯算法的新闻自动分类系统设计与实现
 本新闻自动分类系统采用模块化设计思想。系统主要包括四个核心模块：数据采集模块、数据预处理模块、模型训练模块和新闻分类模块。各模块之间通过标准数据接口进行通信，保证了系统的可扩展性和可维护性。
 数据采集模块：负责从新浪新闻等网络平台爬取新闻标题数据。本系统针对“科技”、“经济”、“政治”三个类别分别构建爬虫任务，采用requests库发送HTTP请求，BeautifulSoup库解析HTML页面，提取新闻标题信息。
 数据预处理模块：对原始新闻标题进行清洗和标准化处理。包括去除标点符号、数字和停用词，使用jieba分词工具进行中文分词，构建适合机器学习算法处理的文本表示形式。
